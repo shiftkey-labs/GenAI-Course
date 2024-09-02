@@ -1,113 +1,64 @@
-# Generative AI Course - Getting Started
+# Generative AI Certification Course - Overview
 
-Welcome to the Generative AI Course! This README will guide you through the steps required to set up your environment, clone the course repository, and run the code. Follow the instructions carefully to get started.
+Welcome to the Generative AI Certification Course repository! This repository is organized by weeks, with each week focusing on different aspects of Generative AI. The content is presented and created by Vansh Sood.
 
-## Table of Contents
+## Course Structure
 
-1. [Prerequisites](#prerequisites)
-2. [Option 1: Local Setup](#option-1-local-setup)
-   - [Cloning the Repository](#cloning-the-repository)
-   - [Setting Up Your Environment](#setting-up-your-environment)
-   - [Running the Notebooks](#running-the-notebooks)
-3. [Option 2: Google Colab](#option-2-google-colab)
-   - [Cloning the Repository](#cloning-the-repository-on-colab)
-   - [Running the Notebooks on Colab](#running-the-notebooks-on-colab)
-4. [Sessions Overview](#sessions-overview)
+The course is divided into four weeks, each containing specific materials, including Jupyter notebooks, resources, and instructions. As you progress through the course, you'll find the content for each week updated in its respective folder.
 
-## Prerequisites
+### Weekly Breakdown:
 
-Before you start, ensure you have the following:
+- **Week 1: Introduction to Generative AI**
+  - Overview of large language models, the Transformer architecture, and hands-on work with Hugging Face.
+  - **Folder**: `week_1`
+  - **Files**:
+    - `README.md`: Overview and instructions for Week 1.
+    - `Lab1_GenAI_ShiftKey.ipynb`: Jupyter notebook for the hands-on lab.
+    - `RESOURCES.md`: Additional resources for Week 1.
+- **Week 2: Prompt Engineering**
+  - Learn how to refine and optimize prompts to improve model outputs.
+  - **Folder**: `week_2`
+  - **Files**: To be added during Week 2.
+- **Week 3: Fine-Tuning Models**
+  - Explore techniques for fine-tuning pre-trained models to better suit specific tasks.
+  - **Folder**: `week_3`
+  - **Files**: To be added during Week 3.
+- **Week 4: Ethical Considerations and Advanced Techniques**
+  - Discuss ethical concerns in AI and explore advanced techniques for deploying AI models.
+  - **Folder**: `week_4`
+  - **Files**: To be added during Week 4.
 
-- **GitHub Account**: You will need a GitHub account to fork the repository.
-- **Knowledge of Python**: Basic knowledge of Python programming is required.
+## Instructions for Forking or Cloning the Repository
 
-## Option 1: Local Setup
+### Forking the Repository
+
+1. Navigate to the [repository page](https://github.com/shiftkey-labs/GenAI-Course).
+2. Click the "Fork" button in the top-right corner.
+3. This will create a copy of the repository under your GitHub account.
 
 ### Cloning the Repository
 
-Follow these steps to clone the course repository:
-
-1. **Fork the Repository**
-
-   - Go to the [course repository on GitHub](https://github.com/your-course-repo).
-   - Click on the "Fork" button at the top-right corner of the page.
-
-2. **Clone the Forked Repository**
-   - Open a terminal or command prompt.
-   - Run the following command to clone the repository to your local machine:
-     ```bash
-     git clone https://github.com/your-github-username/your-course-repo.git
-     ```
-   - Navigate into the cloned repository:
-     ```bash
-     cd your-course-repo
-     ```
-
-### Setting Up Your Environment
-
-To set up your environment, you need to install the required dependencies. You can do this using `pip`.
-
-1. **Create a Virtual Environment (Optional but recommended)**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-````
-
-2. **Install Dependencies**
-   - Run the following command to install the required packages:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-### Running the Notebooks
-
-Now you are ready to run the Jupyter notebooks.
-
-1. **Start Jupyter Notebook**
+1. Open your terminal or command prompt.
+2. Use the following command to clone the repository to your local machine:
 
    ```bash
-   jupyter notebook
+   git clone https://github.com/shiftkey-labs/GenAI-Course
    ```
 
-   This will open the Jupyter Notebook interface in your default web browser.
+3. Navigate to the repository directory:
 
-2. **Navigate to the Session Notebook**
+   ```bash
+   cd your-repo
+   ```
 
-   - In the Jupyter Notebook interface, navigate to the folder of the session you are currently working on.
-   - Open the notebook for the session (e.g., `Session1_Notebook.ipynb`).
+## Using the Colab Notebooks
 
-3. **Follow the Instructions in the Notebook**
-   - Each session notebook will contain specific instructions and code cells that you need to complete.
-   - Follow the instructions, run the code cells, and complete the assignments.
+All the hands-on labs are provided as Jupyter notebooks that can be run in Google Colab. Here’s how to use them:
 
-## Option 2: Google Colab
-
-### Cloning the Repository on Colab
-
-1. **Fork the Repository**
-
-   - Go to the [course repository on GitHub](https://github.com/your-course-repo).
-   - Click on the "Fork" button at the top-right corner of the page.
-
-2. **Open Google Colab**
-
-   - Go to [Google Colab](https://colab.research.google.com/).
-
-3. **Open the Notebook from GitHub**
-
-   - In Google Colab, click on `File > Open notebook`.
-   - Select the `GitHub` tab.
-   - Enter your GitHub repository URL or search for the repository name.
-   - Select the notebook you want to open (e.g., `Session1_Notebook.ipynb`).
-
-4. **Save a Copy in Drive (Optional)**
-   - To save your work, you can save a copy of the notebook to your Google Drive by clicking `File > Save a copy in Drive`.
-
-### Running the Notebooks on Colab
-
-1. **Follow the Instructions in the Notebook**
-   - Each session notebook will contain specific instructions and code cells that you need to complete.
-   - Follow the instructions, run the code cells, and complete the assignments.
-````
+1. Navigate to the appropriate week folder (e.g., `week_1`) and locate the `.ipynb` file (e.g., `Lab1.ipynb`).
+2. Open the notebook in Google Colab by following these steps:
+   - Navigate to Google Colab at [colab.research.google.com](https://colab.research.google.com).
+   - Click on `File > Open Notebook`.
+   - Select the `GitHub` tab and enter your repository's URL.
+   - Browse to the notebook file you want to open and click on it.
+3. Run each cell by clicking on the play button next to it.
