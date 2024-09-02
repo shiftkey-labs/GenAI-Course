@@ -1,6 +1,3 @@
-You're right, students do not need to install Python locally if they are using Google Colab. Here is the revised `README.md` that clearly differentiates between the local setup and using Google Colab:
-
-````markdown
 # Generative AI Course - Getting Started
 
 Welcome to the Generative AI Course! This README will guide you through the steps required to set up your environment, clone the course repository, and run the code. Follow the instructions carefully to get started.
@@ -55,6 +52,7 @@ To set up your environment, you need to install the required dependencies. You c
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
+
 ````
 
 2. **Install Dependencies**
@@ -112,7 +110,4 @@ Now you are ready to run the Jupyter notebooks.
 1. **Follow the Instructions in the Notebook**
    - Each session notebook will contain specific instructions and code cells that you need to complete.
    - Follow the instructions, run the code cells, and complete the assignments.
-
----
-
-Make sure to check for any updates in the repository before starting each session. Good luck and happy learning!
+````
