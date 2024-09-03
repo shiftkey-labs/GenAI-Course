@@ -48,14 +48,14 @@ The course is divided into four weeks, each containing specific materials, inclu
 3. Navigate to the repository directory:
 
    ```bash
-   cd your-repo
+   cd GenAI-Course
    ```
 
 ## Using the Colab Notebooks
 
 All the hands-on labs are provided as Jupyter notebooks that can be run in Google Colab. Here’s how to use them:
 
-1. Navigate to the appropriate week folder (e.g., `week_1`) and locate the `.ipynb` file (e.g., `Lab1.ipynb`).
+1. Navigate to the appropriate week folder (e.g., `week_1`) and locate the `.ipynb` file (e.g., `Lab1_GenAI_ShitKey.ipynb`).
 2. Open the notebook in Google Colab by following these steps:
    - Navigate to Google Colab at [colab.research.google.com](https://colab.research.google.com).
    - Click on `File > Open Notebook`.
