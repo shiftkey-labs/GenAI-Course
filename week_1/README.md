@@ -5,8 +5,12 @@ Welcome to Week 1 of the Generative AI course! This week, we’ll be focusing on
 ## Contents of This Branch
 
 - **`README.md`**: This file provides an overview of the Week 1 branch and instructions on how to use the materials provided.
-- **`Lab1.ipynb`**: This Jupyter notebook contains the hands-on lab for Week 1. You’ll explore topics such as working with Google Colab, coding in Python, setting up libraries from Hugging Face, importing and understanding code, and working with pre-trained models.
+- **`Lab1_GenAI_ShiftKey.ipynb`**: This Jupyter notebook contains the hands-on lab for Week 1. You’ll explore topics such as working with Google Colab, coding in Python, setting up libraries from Hugging Face, importing and understanding code, and working with pre-trained models.
 - **`RESOURCES.md`**: This file includes additional resources for further reading and exploration on the topics covered in Week 1.
+
+## Lecture Slides
+
+The lecture slides for Week 1 can be found [here](https://www.canva.com/design/DAGPdESxaKw/NZ5rFilEQHQxNbWc_ugPLw/view?utm_content=DAGPdESxaKw&utm_campaign=designshare&utm_medium=link&utm_source=editor).
 
 ## Lab 1 Overview
 
