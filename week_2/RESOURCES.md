@@ -9,7 +9,7 @@ Here are some valuable prompt engineering resources to help you improve your ski
 - [Runway](https://runwayml.com/)
 - [Google Labs](https://labs.google/)
 - [Google AI Test Kitchen](https://aitestkitchen.withgoogle.com/tools/image-fx)
-- 
+  
 ## Online Guides and Courses
 
 - **LearnPrompting.org** offers a comprehensive, free introduction to prompt engineering techniques. This resource covers fundamental concepts as well as advanced topics in an accessible format.
